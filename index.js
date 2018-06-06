@@ -35,7 +35,7 @@ client.auth(function() {
   var send_out_illumination = this.getVariable('5afc0cf0642ab659c69e72e7');
 
   var get_in_air = this.getVariable('5afab9c3642ab6461f5eca53');
-  var send_out_switch = thi.getVariable('5afab9d1642ab64677b501eb');
+  var send_out_switch = this.getVariable('5afab9d1642ab64677b501eb');
 
   parser.on('data', function(data) {
     console.log(data);
